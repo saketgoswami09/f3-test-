@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+  }
+  
+  header {
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .search-container {
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  .search-input {
+    background-color: #000;
+    padding: 8px;
+    border: 2px solid #333030;
+    outline: none;
+  }
+  
+  .btn {
+    padding: 8px 15px;
+    border: none;
+    background-color: #333;
+    color: #ffe9e9;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .btn.active {
+    background-color: rgb(0, 0, 0);
+    border: solid rgb(104, 96, 96) 2px;
+  }
+  
+  .crypto-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .crypto-table th, .crypto-table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #4e4646;
+  }
+  
+  .crypto-table th {
+    font-weight: bold;
+    font-size: 1.1em;
+  }
+  
+  .crypto-table tbody tr:hover {
+    background-color: #222;
+  }
+  
+  .crypto-table tbody tr td:first-child {
+    font-weight: bold;
+  }
+  
+  .crypto-table tbody tr td:nth-child(4),
+  .crypto-table tbody tr td:nth-child(5) {
+    text-align: right;
+  }
+  
